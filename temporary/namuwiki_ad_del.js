@@ -1,6 +1,10 @@
 // ==UserScript==
 // @name         Namuwiki_power_ad_delete_script
+// @encoding     utf-8
 // @namespace    https://github.com/kkt3343/namuwiki_delete_ad_project
+// @homepageURL  https://github.com/kkt3343/namuwiki_delete_ad_project
+// @updateURL    https://github.com/kkt3343/programmers_coding_test/raw/main/temporary/namuwiki_ad_del.js
+// @downloadURL  https://github.com/kkt3343/programmers_coding_test/raw/main/temporary/namuwiki_ad_del.js
 //
 // @version      3.6.0
 // @description  This script can remove power link ads on Namuwiki.
