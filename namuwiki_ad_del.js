@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Namuwiki_power_ad_delete_script
 // @encoding     utf-8
-// @namespace    https://github.com/kkt3343/programmers_coding_test/tree/main/temporary
-// @homepageURL  https://github.com/kkt3343/programmers_coding_test/tree/main/temporary
-// @updateURL    https://github.com/kkt3343/programmers_coding_test/raw/main/temporary/namuwiki_ad_del.js
-// @downloadURL  https://github.com/kkt3343/programmers_coding_test/raw/main/temporary/namuwiki_ad_del.js
+// @namespace    https://github.com/kkt3343/programmers_coding_test/tree/main
+// @homepageURL  https://github.com/kkt3343/programmers_coding_test/tree/main
+// @updateURL    https://github.com/kkt3343/programmers_coding_test/raw/main/namuwiki_ad_del.js
+// @downloadURL  https://github.com/kkt3343/programmers_coding_test/raw/main/namuwiki_ad_del.js
 //
 // @version      3.6.0
 // @description  This script can remove power link ads on Namuwiki.
@@ -17,7 +17,7 @@
 // @run-at       document-start
 // ==/UserScript==
 
-(function() {
+(() => {
     'use strict';
     function delad(){
         var powerlink1 = 'https://w.namu.la/s/c9a62e8f39c5d7c146a5717bba8f8e26c84ad979137902370a1f2a4344cb9893';
@@ -146,6 +146,4 @@
     reload_delad();
     `;
     document.head.appendChild(elt);
-})();
-
-
+})()
