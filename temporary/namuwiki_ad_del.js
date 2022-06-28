@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Namuwiki_power_ad_delete_script
 // @encoding     utf-8
-// @namespace    https://github.com/kkt3343/namuwiki_delete_ad_project
-// @homepageURL  https://github.com/kkt3343/namuwiki_delete_ad_project
+// @namespace    https://github.com/kkt3343/programmers_coding_test/tree/main/temporary
+// @homepageURL  https://github.com/kkt3343/programmers_coding_test/tree/main/temporary
 // @updateURL    https://github.com/kkt3343/programmers_coding_test/raw/main/temporary/namuwiki_ad_del.js
 // @downloadURL  https://github.com/kkt3343/programmers_coding_test/raw/main/temporary/namuwiki_ad_del.js
 //
@@ -14,6 +14,7 @@
 // @exclude      https://namu.wiki/w/%EB%82%98%EB%AC%B4%EC%9C%84%ED%82%A4:%EB%8C%80%EB%AC%B8
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=namu.wiki
 // @grant        none
+// @run-at       document-start
 // ==/UserScript==
 
 (function() {
